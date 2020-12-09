@@ -1,0 +1,240 @@
+body, table, .wrapper{
+    margin: auto;
+    padding:0px;
+    border: 0px;
+    text-align: center;
+}
+html, body, .wrapper{
+    height:100%;
+}
+.div{
+    line-height: 200px;
+    margin: auto;
+    padding:0px;
+    border: 0px;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.header{
+    padding-top: 20px;
+    text-align: center;
+    background: #b0e0e6;
+    width: 100%;
+    height: 20%;
+
+}
+.my_text1{
+    margin-left: 20px;
+    margin-top: 30px;
+    float: left;
+    background: white;
+    padding: 20px;
+    border-right: 120px solid white ;
+}
+.my_text2{
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    float: right;
+    background: #b0e0e6;
+}
+.my_text3{
+    margin-right: 20px;
+    margin-top: 30px;
+    float: right;
+    background: white;
+    padding: 20px;
+    border-right: 60px solid white ;
+    border-left: 60px solid white ;
+}
+.my_text4{
+    border-right: 20px solid #b0e0e6 ;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    float: left;
+    background: #b0e0e6;
+}
+.site-body{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.left-sidebar{
+    height: 100%;
+    width: 20%;
+    background: #add8e6;
+    float: left;
+    line-height: 40px;
+}
+.main{
+    width: 60%;
+    height: 100%;
+}
+.right-sidebar{
+    float: right;
+    width: 20%;
+    height: 100%;
+}
+.content1{
+    width: 100%;
+    height: 20%;
+    background: #afeeee;
+    line-height: 40px;
+    overflow: hidden;
+}
+.content2{
+    width: 100%;
+    height: 80%;
+    background: lightcyan;
+    line-height: 50px;
+}
+.content3{
+    width: 100%;
+    height: 80%;
+    background: lightsteelblue;
+    overflow: scroll;
+    line-height: 30px;
+}
+.my_content1{
+    position: absolute;
+    top: 32%;
+    left: 20%;
+}
+.my_content2{
+    margin-top: 30px;
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 32%;
+    left: 20%;
+    line-height: 50px;
+}
+.rectangle{
+    width: 300px;
+    height: 300px;
+}
+.footer{
+    padding-top: 20px;
+    background: #b0e0e6;
+    width: 100%;
+    height: 20%;
+    float: left;
+    display: table;
+}
+
+#work{
+    width: 100%;
+    height: 100%;
+    background-color: mediumseagreen;
+    position: relative;
+}
+#anim{
+    /*background-color: aquamarine;*/
+    border: 5px solid limegreen;
+    bottom: 0;
+    width: calc(100% - 10px);
+    height: calc(100% - 50px);
+    position: absolute;
+    z-index: 3;
+    /*z-index: 2;*/
+    /*background: linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%), linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%) 0.1875em 0.1875em, radial-gradient(at 50% 0, #484847, #090909);*/
+    /*background: url(images/smile.png) no-repeat  0 0,
+    url(images/bigsmile.png) no-repeat 100% 0,
+    url(images/pizza.png) space 0 100%,
+    url(images/icecream.png) repeat-x 100% 100%;*/
+    /*background-position: bottom right, center center, top left;*/
+    /*background-image: url(images/pizza.png), url(images/bigsmile.png);
+    background-repeat: repeat-y, repeat-y;
+    background-position: bottom, right;*/
+}
+#message{
+    width: 60%;
+    height: 45px;
+    /*display: inline-block;*/
+    float: left;
+    left: 2px;
+    overflow: scroll;
+    z-index: 3;
+    position: absolute;
+}
+#close{
+    float: right;
+    /*display: inline-block;*/
+    z-index: 3;
+    position: absolute;
+    right: 2px;
+}
+#start{
+    float: right;
+    right: 60px;
+    /*display: inline-block;*/
+    z-index: 3;
+    position: absolute;
+}
+#reload{
+    float: right;
+    right: 60px;
+    /*display: inline-block;*/
+    z-index: 3;
+    position: absolute;
+}
+#circle{
+    background-color: darkgreen;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    /*z-index: 2;*/
+}
+#leftUp{
+    margin-top: 45px;
+    float: left;
+    width: 50%;
+    height: calc(50% - 25px);
+    background: url(images/smile.png) repeat;
+    z-index: -10;
+
+}
+#rightUp{
+    margin-top: 45px;
+    float: right;
+    width: 50%;
+    height: calc(50% - 25px);
+    background: url(images/pizza.png) repeat;
+    z-index: -1;
+}
+#leftDown{
+    float: left;
+    width: 50%;
+    height: calc(50% - 25px);
+    background: url(images/icecream.png) repeat;
+    z-index: -10;
+}
+#rightDown{
+    float: right;
+    width: 50%;
+    height: calc(50% - 25px);
+    background: url(images/bigsmile.png) repeat;
+    z-index: -1;
+}
+
+canvas{
+    /*width: 100%;
+    height: 100%;*/
+    /*background: blueviolet;*/
+    z-index: 2;
+    position: absolute;
+    /*float: left;
+    text-align: left;*/
+    /*margin-left: 0;
+    margin-right: 0;*/
+    left: 0;
+    top: 0;
+}
